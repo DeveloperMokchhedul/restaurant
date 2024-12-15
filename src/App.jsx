@@ -1,12 +1,15 @@
-import React from 'react'
-import { Button } from './components/ui/button'
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+
 
 function App() {
   return (
-    <div>
-     <h1 className='text-2xl bg-red-600'> welcome to restaurant website</h1>
-     <Button>shadcnbtn</Button>
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element = {<Home />} />
+    </Routes>
+
+    </>
   )
 }
 
