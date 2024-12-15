@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cart() {
   return (
-    <div className='max-w-[285px]'>
+    <div className='max-w-[285px] bg-[#F8F8F8] rounded-[14px]'>
         <img src="/images/card3.png" alt="cart" />
         <div className='pl-[14px] py-[13px]'>
         <p className='font-roboto text-19px leading-[22.27px] font-semibold text-[#232323] '>Bottega</p>

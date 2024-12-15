@@ -6,9 +6,9 @@ import { IoSearchOutline } from "react-icons/io5";
 
 function Navbar() {
     return (
-        <header>
+        <header className='border-b'>
             <Container>
-                <nav className='flex justify-between pt-[46px] pb-[23px] items-center'>
+                <nav className='flex justify-between pt-[46px] pb-[23px] items-center '>
                     {/* logo section */}
                     <div className=' text-start'>
                         <img className='w-[166px]' src="images/logo.png" alt="logo" />
@@ -18,7 +18,7 @@ function Navbar() {
                     {/* search section */}
                     <div className='border rounded-full w-[50%] py-[4px]'>
                         <div className='w-full flex justify-between items-center'>
-                            
+
                             <div className='w-full'>
                                 <input className=' w-full ps-[23px] outline-none' type="text" placeholder='restaurant, hotel, service....' />
                             </div>
@@ -29,8 +29,8 @@ function Navbar() {
                             </div>
 
                             <div className='pr-[5px] '>
-                                <IoSearchOutline className='w-[43px] h-[43px] bg-bgPrimary p-[12px] rounded-full text-white flex justify-center items-center'  />
-                                
+                                <IoSearchOutline className='w-[43px] h-[43px] bg-bgPrimary p-[12px] rounded-full text-white flex justify-center items-center' />
+
                             </div>
 
 
