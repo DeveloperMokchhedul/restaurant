@@ -1,12 +1,12 @@
-const listA = ["Investors", "Features", "Book a demo", "Security"];
-const listB = ["Credit Cards", "Gift Cards", "Savings Accounts", "NFT"];
-// const listC = ["Free rewards", "Documentation", "Affiliate program"];
+const listA = ["About MyFeedback", "Investor Relations"];
+const listB = ["MyFeedback for business","Collections","Talk", "Events", "MyFeedback blog", "Support", "Developers"];
+
 const language1 = ["English", "Bangla", "Portuguese"];
 const location = ["Singapore", "America", "Bangladesh"];
 
 const linkList = (title, list, isDropdown = false) => (
-  <div className=" min-w-fit mt-[30px]">
-    <h5 className="font-bold">{title}</h5>
+  <div className=" min-w-fit mt-[30px] ">
+    <h5 className="font-bold pb-[11px]">{title}</h5>
     {isDropdown ? (
       <select className="bg-transparent ">
         {list.map((item, i) => (
@@ -30,7 +30,7 @@ const linkList = (title, list, isDropdown = false) => (
 const Footer = () => {
   return (
     <footer className=" px-[317px] mt-[26px]">
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-y-5 gap-x-2.5 lg:gap-8 py-12 w-full max-w-[1440px] px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto">
+      <div className="grid grid-cols-3  lg:gap-[40px] py-12 w-full gap-[300px] pl-[120px]">
         {linkList("About", listA)}
         {linkList("MyFeedback", listB)}
         <div className="flex flex-col">
