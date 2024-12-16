@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Navbar from "./component/Navbar"
 import Footer from "./component/Footer"
 import BestRestaurant from "./pages/BestRestaurant"
+import Italia from "./pages/Italia"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element = {<Home />}  />
       <Route path="/home/allrestaurant" element = {<BestRestaurant />}  />
+      <Route path="/home/italia" element = {<Italia />}  />
       
 
     </Routes>
