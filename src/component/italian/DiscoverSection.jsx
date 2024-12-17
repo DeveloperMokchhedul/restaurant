@@ -6,13 +6,13 @@ import Title from '../common/Title'
 
 function DiscoverSection() {
     return (
-        <div className='mt-[42px]'>
+        <div className='mt-[42px] px-[20px] md:px-0'>
             <Container>
                 <Title className={"font-extrabold pb-[45px]"}>Also discover...</Title>
-                <div className='flex gap-[49px]'>
+                <div className='grid grid-cols-12 md:gap-[49px]'>
                     {
                         restaurantList.slice(0, 3).map((item, index) => (
-                            <div key={index}>
+                            <div key={index} className='col-span-12 md:col-span-4'>
                                 <Cart />
                             </div>
                         ))

@@ -5,7 +5,7 @@ import Description from '../common/Description'
 
 function ReviewCard() {
   return (
-    <div className='bg-[#f8f8f8] py-[21px] pl-[20px] rounded-[20px] w-[1055px] flex gap-[9px]'>
+    <div className='bg-[#f8f8f8] py-[21px] pl-[20px] rounded-[20px] w-full md:w-[1055px] flex gap-[9px]'>
       <LuUserRound size={"59px"} className='bg-white p-[12px] rounded-full' />
       <div>
         <Title className={"font-semibold"}>Ming Wei</Title>

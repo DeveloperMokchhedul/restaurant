@@ -7,7 +7,7 @@ function ImageGalary() {
     return (
         <div className="mt-[148px]">
             <Container>
-                <div className='w-[702px] pb-[40px]'>
+                <div className='md:w-[702px] pb-[40px]'>
                 <Title className={'text-[34px] font-semibold'}>Discover our magnificent place in photos</Title>
                 <Description className={"pr-[150px]"}>The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing.</Description>
                 </div>

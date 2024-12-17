@@ -10,7 +10,7 @@ function CustomarReview() {
     return (
         <div className='mt-[34px]'>
             <Container>
-                <div className='flex gap-[38px]'>
+                <div className='flex gap-[38px] px-[20px] md:px-0'>
                     <Button className="flex items-center justify-center bg-transparent border text-black rounded-full hover:text-white">
                         <PiSortDescending />
                         Filter
