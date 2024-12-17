@@ -1,7 +1,10 @@
 import Container from '@/component/common/Container'
 import Description from '@/component/common/Description'
 import Title from '@/component/common/Title'
+import CustomarReview from '@/component/italian/CustomarReview';
 import ImageGalary from '@/component/italian/ImageGalary';
+import Info from '@/component/italian/Info';
+import OverAllRating from '@/component/italian/OverAllRating';
 import React from 'react'
 import { CiLocationOn } from "react-icons/ci";
 import { CiClock2 } from "react-icons/ci";
@@ -28,6 +31,10 @@ function Italia() {
                 </Container>
             </div>
             <ImageGalary />
+            <Info />
+            <OverAllRating />
+            <CustomarReview />
+
         </div>
     )
 }
