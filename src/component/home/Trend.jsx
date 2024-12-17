@@ -4,6 +4,7 @@ import Title from '../common/Title'
 import SliderData from '@/api/SliderData'
 import Cart from '../common/Cart'
 import CommonBtn from '../common/CommonBtn'
+import trendApiData from '@/api/trendApiData'
 
 function Trend() {
     return (
@@ -12,9 +13,9 @@ function Trend() {
                 <Title className={"font-extrabold"}>The latest trends</Title>
                 <div className='grid grid-cols-12 gap-5 mt-[25px]'>
                     {
-                        SliderData.map((data, index) => (
+                        trendApiData.map((data, index) => (
                             <div key={index} className='col-span-12 md:col-span-3 flex gap-5'>
-                                <Cart />
+                                <Cart title = {data.title} description = {data.description} image = {data.image} rating = {data.rating} review = {data.review}  />
 
                             </div>
 

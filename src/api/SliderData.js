@@ -1,40 +1,58 @@
 
 
 const SliderData = [
+
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     },
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider3.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+    },
+
+    {
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     },
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     },
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     },
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     },
     {
-        image:"image1",
-        title:"title1",
-        description:"description1"
-    },
-    {
-        image:"image1",
-        title:"title1",
-        description:"description1"
+        image:"/images/heroslider2.png",
+        rating:5,
+        review:876,
+        title:"Bottega",
+        description:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
     }
+   
+
 ]
 export default SliderData

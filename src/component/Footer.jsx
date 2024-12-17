@@ -30,7 +30,7 @@ const linkList = (title, list, isDropdown = false) => (
 const Footer = () => {
   return (
     <footer className=" md:px-[317px] md:mt-[26px] px-[20px] " >
-      <div className="grid grid-cols-3  lg:gap-[40px] md:py-12 w-full md:gap-[300px] md:pl-[120px]">
+      <div className="grid grid-cols-3 gap-[20px]  lg:gap-[250px] md:py-12 w-full md:gap-[250px] ">
         {linkList("About", listA)}
         {linkList("MyFeedback", listB)}
         <div className="flex flex-col">

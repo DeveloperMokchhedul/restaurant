@@ -5,6 +5,7 @@ import Description from '../common/Description';
 import { Button } from '@/components/ui/button';
 import CommonBtn from '../common/CommonBtn';
 import { DialogImage } from './Dialog';
+import { MenuDialog } from './MenuDialog';
 
 function ImageGalary() {
     const [dialog, setDialog] = useState(false)
@@ -35,10 +36,6 @@ function ImageGalary() {
                     {
                         dialog && <DialogImage dialog={dialog} setDialog={setDialog} />
                     }
-
-
-
-
                     <div className="flex gap-[16px]">
                         <div className="flex flex-col gap-[16px]">
                             <img className="w-[269px] object-cover" src="/images/bella2.png" alt="Gallery Image 2" />
@@ -50,6 +47,9 @@ function ImageGalary() {
                         </div>
                     </div>
                 </div>
+
+
+                <MenuDialog />
             </Container>
         </div>
     );

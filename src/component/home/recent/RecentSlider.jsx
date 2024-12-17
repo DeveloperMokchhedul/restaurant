@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/carousel"
 import SliderData from '@/api/SliderData'
 import RecentCard from './RecentCard'
+import recentActivitiesApi from '@/api/recentActivitiesApi'
 
 
 function RecentSlider() {
@@ -16,10 +17,10 @@ function RecentSlider() {
             <div className=' relative '>
                 <Carousel className="w-full ">
                     <CarouselContent className="-ml-1 ">
-                        {SliderData.map((_, index) => (
+                        {recentActivitiesApi.map((data, index) => (
                             <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                                 <div className="p-1">
-                                    <RecentCard />
+                                    <RecentCard name = {data.name} rating = {data.rating} date = {data.date} address = {data.location} des1 = {data.description1} des2  = {data.description2} img1 = {data.image.image1} img2 = {data.image.image2} img3 = {data.image.image3}/>
                                 </div>
                             </CarouselItem>
                         ))}

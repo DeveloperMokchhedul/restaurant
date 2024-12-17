@@ -19,16 +19,11 @@ function Slider() {
                 <Title className={"text-white pb-[31px]"}>Find the best restaurant ratings below</Title>
                 <Carousel className="w-full ">
                     <CarouselContent className="-ml-1">
-                        {SliderData.map((_, index) => (
+                        {SliderData.map((data, index) => (
                             <CarouselItem key={index} className="pl-1  md:basis-1/2 lg:basis-1/4">
                                 <div className="p-1">
-                                    <Cart />
-
-                                    {/* <Card>
-                                        <CardContent className="flex aspect-square items-center justify-center p-6">
-                                            <span className="text-2xl font-semibold">{index + 1}</span>
-                                        </CardContent>
-                                    </Card> */}
+                                    <Cart title = {data.title} description = {data.description} image = {data.image} rating = {data.rating} review = {data.review} />
+                                    
                                 </div>
                             </CarouselItem>
                         ))}
