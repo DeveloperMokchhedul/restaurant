@@ -12,11 +12,11 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 function Info() {
     return (
-        <div className='mt-[90px]'>
+        <div className='mt-[90px] px-[20px] md:px-0'>
             <Container>
                 <div className='grid grid-cols-12 px-[20px] md:px-0'>
                     <div className='col-span-12 md:col-span-6'>
-                        <Title className={"text-[34px] font-semibold text-center md:text-start"}>More informations</Title>
+                        <Title className={"text-[25px] md:text-[34px] font-semibold text-center md:text-start"}>More informations</Title>
                         <div className='mt-[42px] flex flex-col gap-[33px] '>
                             <p className='flex items-center gap-[10px] text-[#232323] text-[20px]'> <CiLocationOn />  See the menu</p>
                             <p className='flex items-center gap-[10px] text-[#232323] text-[20px]'> <CiLocationOn />  +847 87 37 29 01</p>

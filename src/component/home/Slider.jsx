@@ -15,7 +15,7 @@ import Title from '../common/Title'
 function Slider() {
     return (
         <>
-            <div className='bg-bgPrimary py-[20px] px-[23px] rounded-[9px] relative px-[20px]'>
+            <div className='bg-bgPrimary py-[20px] rounded-[9px] relative px-[20px]'>
                 <Title className={"text-white pb-[31px]"}>Find the best restaurant ratings below</Title>
                 <Carousel className="w-full ">
                     <CarouselContent className="-ml-1">

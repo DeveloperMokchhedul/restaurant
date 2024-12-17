@@ -5,7 +5,7 @@ import { ProgressBar } from './ProgressBar'
 
 function OverAllRating() {
     return (
-        <div className='mt-[56px] '>
+        <div className='mt-[56px] px-[20px] md:px-0 '>
             <Container>
                 <div className='flex flex-col md:flex-row gap-[52px] items-center border-y-2 py-[56px] px-[20px] md:px-0'>
                     <div className='flex items-start'>

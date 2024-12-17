@@ -8,7 +8,7 @@ import CommonBtn from '../common/CommonBtn'
 
 function CustomarReview() {
     return (
-        <div className='mt-[34px]'>
+        <div className='mt-[34px] px-[20px] md:px-0'>
             <Container>
                 <div className='flex gap-[38px] px-[20px] md:px-0'>
                     <Button className="flex items-center justify-center bg-transparent border text-black rounded-full hover:text-white">

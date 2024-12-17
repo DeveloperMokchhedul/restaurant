@@ -9,7 +9,7 @@ import Italia from "./pages/Italia"
 function App() {
   return (
     <>
-    {/* <Navbar /> */}
+    <Navbar />
     <Routes>
       <Route path="/" element = {<Home />}  />
       <Route path="/home/allrestaurant" element = {<BestRestaurant />}  />
