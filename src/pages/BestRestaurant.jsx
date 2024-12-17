@@ -10,10 +10,10 @@ import { PiSortDescending } from "react-icons/pi";
 
 function BestRestaurant() {
     return (
-        <div>
+        <div className='px-[20px] md:px-0'>
             <Container>
                 <div className='grid grid-cols-12'>
-                    <div className='col-span-6 mt-[20px]'>
+                    <div className='col-span-12 md:col-span-6 mt-[20px]'>
                         <p>Home/All Restaurant</p>
                         <div className='flex items-center gap-[30px]'>
                             <Title className={"font-extrabold pt-[11px]"}>best restaurants in singapore</Title>
@@ -38,11 +38,14 @@ function BestRestaurant() {
                             }
                         </div>
 
-                        <CommonBtn>Show more</CommonBtn>
+                        <CommonBtn className="mx-auto md:mx-0 md:ml-0 mb-[20px] md:mb-0 flex md:justify-start">
+                            Show more
+                        </CommonBtn>
+
 
                     </div>
 
-                    <div className='col-span-6'>
+                    <div className='col-span-12 md:col-span-6'>
                         <img src="/images/map.png" alt="" />
                     </div>
                 </div>

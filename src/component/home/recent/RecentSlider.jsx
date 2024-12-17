@@ -13,7 +13,7 @@ import RecentCard from './RecentCard'
 function RecentSlider() {
     return (
         <>
-            <div className=' relative'>
+            <div className=' relative '>
                 <Carousel className="w-full ">
                     <CarouselContent className="-ml-1 ">
                         {SliderData.map((_, index) => (

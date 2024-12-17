@@ -29,6 +29,8 @@ function RecentCard() {
             <img src="/images/recent3.png" alt="" />
         </div>
 
+        <p className='underline mt-[20px]'>Discover</p>
+
         
 
     </div>

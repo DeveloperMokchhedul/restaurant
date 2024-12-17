@@ -2,6 +2,7 @@ import Container from '@/component/common/Container'
 import Description from '@/component/common/Description'
 import Title from '@/component/common/Title'
 import CustomarReview from '@/component/italian/CustomarReview';
+import DiscoverSection from '@/component/italian/DiscoverSection';
 import ImageGalary from '@/component/italian/ImageGalary';
 import Info from '@/component/italian/Info';
 import OverAllRating from '@/component/italian/OverAllRating';
@@ -11,12 +12,12 @@ import { CiClock2 } from "react-icons/ci";
 
 function Italia() {
     return (
-        <div>
-            <p className='my-[20px] ml-[95px]'>Home / BellaItalia</p>
+        <div className=''>
+            <p className='my-[20px] ml-[20px] md:ml-[95px]'>Home / BellaItalia</p>
             <div className='bg-[url("/images/hero.png")]  pt-[67px] relative'>
             <img src="/images/bellalogo.png" alt="" className='absolute -bottom-[70px] left-[45%]' />
                 <Container>
-                    <div className='w-[530px]'>
+                    <div className='md:w-[530px] px-[20px] md:px-0'>
                         
                         <Title className={"text-[52px] font-semibold text-white "}>Bella italia</Title>
                         <p className='text-[14px] font-semibold font-roboto leading-[16.41px] text-white '>rating: 5.0 <span className='font-normal font-roboto text-white'>(876 reviews)</span></p>
@@ -34,6 +35,7 @@ function Italia() {
             <Info />
             <OverAllRating />
             <CustomarReview />
+            <DiscoverSection />
 
         </div>
     )

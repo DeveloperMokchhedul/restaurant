@@ -29,8 +29,8 @@ const linkList = (title, list, isDropdown = false) => (
 
 const Footer = () => {
   return (
-    <footer className=" px-[317px] mt-[26px]">
-      <div className="grid grid-cols-3  lg:gap-[40px] py-12 w-full gap-[300px] pl-[120px]">
+    <footer className=" md:px-[317px] md:mt-[26px] px-[20px] " >
+      <div className="grid grid-cols-3  lg:gap-[40px] md:py-12 w-full md:gap-[300px] md:pl-[120px]">
         {linkList("About", listA)}
         {linkList("MyFeedback", listB)}
         <div className="flex flex-col">
@@ -38,7 +38,7 @@ const Footer = () => {
           {linkList("Countries", location, true)}
         </div>
       </div>
-      <p className="text-center mb-[27px]">Copyright @ December 2024 myfeedback, designed by mokchhedulislam</p>
+      <p className="text-center mt-[20px]  mb-[27px]">Copyright @ December 2024 myfeedback, designed by mokchhedulislam</p>
     </footer>
   );
 };

@@ -6,7 +6,7 @@ import RecentSlider from './RecentSlider'
 
 function Recent() {
     return (
-        <div className='mt-[83px]'>
+        <div className='mt-[83px] px-[20px] md:px-[0px]'>
             <Container>
                 <Title className={"font-extrabold"}>Recents avtivities</Title>
                 <RecentSlider />

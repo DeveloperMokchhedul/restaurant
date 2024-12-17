@@ -15,12 +15,12 @@ import Title from '../common/Title'
 function Slider() {
     return (
         <>
-            <div className='bg-bgPrimary py-[20px] px-[23px] rounded-[9px] relative'>
+            <div className='bg-bgPrimary py-[20px] px-[23px] rounded-[9px] relative px-[20px]'>
                 <Title className={"text-white pb-[31px]"}>Find the best restaurant ratings below</Title>
                 <Carousel className="w-full ">
                     <CarouselContent className="-ml-1">
                         {SliderData.map((_, index) => (
-                            <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/4">
+                            <CarouselItem key={index} className="pl-1  md:basis-1/2 lg:basis-1/4">
                                 <div className="p-1">
                                     <Cart />
 
