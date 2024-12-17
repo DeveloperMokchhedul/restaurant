@@ -49,7 +49,7 @@ function Navbar() {
                 {/* 
                 mobile  view */}
                 <div className='md:hidden  '>
-                    <div className='flex justify-between pt-[46px] pb-[23px] items-center'>
+                    <div className='flex justify-between pt-[20px] md:pt-[46px] pb-[23px] items-center'>
                         <div className=' text-start'>
                             <img className='w-[150px] mt-[15px]' src="images/logo.png" alt="logo" />
                         </div>
