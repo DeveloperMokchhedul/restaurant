@@ -10,11 +10,10 @@ function Navbar() {
     const [filteredSuggestions, setFilteredSuggestions] = useState([]);
 
     const restaurantSuggestions = [
-        { name: "The Food Palace", location: "Singapore" },
-        { name: "Sunrise Hotel", location: "Singapore" },
-        { name: "Ocean View Restaurant", location: "Bangkok" },
-        { name: "Mountain Delight", location: "Nepal" },
-        { name: "City Diner", location: "New York" }
+        { name: "Kakune restau, ", location: "paris..." },
+        { name: "Kakunexy delux,", location: "rome..." },
+        { name: "kakune,", location: "new york" },
+        { name: "City Diner", location: "Dakar plateau..." }
     ];
 
     const handleSearch = (e) => {
