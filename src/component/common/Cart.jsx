@@ -3,7 +3,7 @@ import Description from './Description';
 
 function Cart({ title, description, review, rating, image }) {
   return (
-    <div className="bg-[#F8F8F8] rounded-[14px]">
+    <div className="bg-[#F8F8F8] rounded-[14px] hover:scale-105 duration-700 transition-all">
       <img className="w-full" src={image} alt="" />
       <div className="md:pl-[14px] py-[13px]">
         <p className="font-roboto text-19px leading-[22.27px] font-semibold text-[#232323]">
